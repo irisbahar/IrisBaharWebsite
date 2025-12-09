@@ -1,0 +1,63 @@
+{
+  "students": [
+    {
+      "name": "Will Buziak",
+      "graduation": "Spring 2028",
+      "program": "PhD Student in Computer Science",
+      "about": "My research is on computer architecture simulation in which I work on an efficient secure memory implementation for a trusted execution environment.",
+      "image": "./assets/students/WillBuziak.jpg"
+    },
+    {
+      "name": "Tanmay Desai",
+      "graduation": "Spring 2027",
+      "program": "PhD Student in Robotics",
+      "about": "My work involves Motion Planning and how we can utilize different hardware accelerators (Hardware Software Co-Design) can be utilized to achieve real time and energy efficient performance.",
+      "image": "./assets/students/Tanmay.jpeg"
+    },
+    {
+      "name": "Jadon Johnson",
+      "graduation": "Spring 2029",
+      "program": "PhD Student in Computer Science",
+      "about": "My work focuses on machine learning to optimize the perfomance trade-offs associated with implementing strong memory encryption and integrity verification mechanisms.",
+      "image": "./assets/students/Default.jpg"
+    }
+  ],
+  "pastStudents": [
+    { "name": "Yu Bai", "date": "August 2004" },
+    { "name": "Hui-Yuan Song", "date": "September 2005" },
+    {
+      "name": "Tali Moreshet",
+      "date": "May 2006",
+      "co_advised_with": "Maurice Herlihy"
+    },
+    { "name": "Kundan Nepal", "date": "May 2007" },
+    { "name": "Desta Tadesse", "date": "May 2009" },
+    {
+      "name": "Cesare Ferri",
+      "date": "May 2011",
+      "co_advised_with": "Maurice Herlihy"
+    },
+    {
+      "name": "Roto Le",
+      "date": "August 2012",
+      "co_advised_with": "Joe Mundy"
+    },
+    {
+      "name": "Kumud Nepal",
+      "date": "May 2015",
+      "co_advised_with": "Sherief Reda"
+    },
+    { "name": "Onur Ulusel", "date": "May 2016" },
+    { "name": "Marco Donato", "date": "May 2016" },
+    { "name": "Dimitra Papagiannopoulou", "date": "May 2016" },
+    { "name": "Christopher Picardo", "date": "May 2018" },
+    {
+      "name": "Jiwon Choe",
+      "date": "May 2022",
+      "co_advised_with": "Maurice Herlihy"
+    },
+    { "name": "Yanqi Liu", "date": "May 2022" },
+    { "name": "Samuel Thomas", "date": "May 2025" },
+    { "name": "Semanti Basu", "date": "June 2025" }
+  ]
+}

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr. Iris Bahar - Home</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="css/publications.css" />
+    <link rel="stylesheet" href="css/linkedin-posts.css" />
+    <link rel="stylesheet" href="css/student.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="assets/images/headshot.jpeg" type="image/x-icon">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="https://www.mines.edu/" target="_blank" class="logo-link">
+        <img
+          src="https://www.mines.edu/wp-content/uploads/2023/05/Mines-Institutional-Mark.png"
+          alt="Colorado School of Mines"
+          class="university-logo"
+        />
+      </a>
+      <a href="https://cs.mines.edu/faculty-and-staff/"  target="_blank" class="logo-link">
+      <h1 class="header-name">Dr. Iris Bahar</h1>
+      </a>
+      <a href="https://cs.mines.edu/" target="_blank" class="cs-mines">
+        CS@Mines
+      </a>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+      <!-- Profile Section -->
+      <div class="profile-section">
+        <img
+          src="https://vivo.brown.edu/profile-images/407/937/39/rbahar_photo_.jpg"
+          alt="Professor Photo"
+          class="profile-picture"
+        />
+        <h2 class="professor-name">Dr. Iris Bahar</h2>
+        <p class="bio">Department Head and Professor, Computer Science</p>
+      </div>
+
+      <hr />
+
+      <!-- Main Navigation Links -->
+      <ul class="nav-links">
+        <li>
+          <a href="#home" class="nav-link">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#research" class="nav-link">
+            <i class="fa-solid fa-flask"></i>
+            <span>Research</span>
+          </a>
+        </li>
+        <li>
+          <a href="#publications" class="nav-link">
+            <i class="fa-solid fa-book"></i>
+            <span>Publications</span>
+          </a>
+        </li>
+        <li>
+          <a href="assets/documents/rbahar_cv.pdf" target="_blank" class="nav-link">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>CV</span>
+          </a>
+        </li>
+        <li>
+          <a href="#students" class="nav-link">
+            <i class="fa-solid fa-user-graduate"></i>
+            <span>Students</span>
+          </a>
+        </li>
+        <li>
+          <a href="#teaching" class="nav-link">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <span>Teaching</span>
+          </a>
+        </li>
+        <li>
+          <a href="#appointment" class="nav-link">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Appointment</span>
+          </a>
+        </li>
+      </ul>
+
+      <hr class="hr-contacts" />
+
+      <!-- Contact Links -->
+      <div class="contact-links">
+        <a href="mailto:ribahar@mines.edu" class="contact-link" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/r-iris-bahar-09a2915/"
+          target="_blank"
+          class="contact-link"
+          title="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com"
+          target="_blank"
+          class="contact-link"
+          title="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="tel:+13033842184" class="contact-link" title="Phone">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/iris.bahar/"
+          target="_blank"
+          class="contact-link"
+          title="Facebook"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <div>
+        <section id="home" class="content-section">
+          <div class="content-card">
+            <h1 id="name"></h1>
+            <h3 id="title"></h3>
+            <p id="desc"></p>
+          </div>
+
+          <div class="content-card">
+            <h2>Activity</h2>
+            <div id="linkedin-posts-container"></div>
+          </div>
+        </section>
+
+        <section id="research" class="content-section">
+          <div class="content-card">
+            <h2>Research Overview</h2>
+            <p>
+              Dr. Bahar's research integrates human-robot interaction, energy-efficient hardware
+              acceleration, and secure memory systems to address critical challenges in modern
+              computing and autonomous systems.
+            </p>
+          </div>
+
+          <div class="content-card">
+            <div class="card-row">
+              <div class="card-column text-column">
+                <h2>Research Areas</h2>
+                <br>
+                <h3>Human-Robot Interaction & Causal Reasoning</h3>
+                <ul>
+                  <li>Integration of human causal models with robot decision-making</li>
+                  <li>LLM-enhanced planning for object assembly and troubleshooting</li>
+                </ul>
+                <br>
+                <h3>Hardware Acceleration for Robotics</h3>
+                <ul>
+                  <li>FPGA-accelerated kernels for robot perception and planning</li>
+                  <li>Energy-efficient machine learning for autonomous systems</li>
+                </ul>
+                <br>
+                <h3>Secure & Reliable Computing Systems</h3>
+                <ul>
+                  <li>High-performance secure memory architectures</li>
+                  <li>Non-volatile memory design and data structures</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-card">
+            <h2>Current Research Projects</h2>
+            <br>
+            <div class="card-row">
+              <div class="card-column text-column">
+                <h3>Causal Models as a Framework for Human-Robot Interaction</h3>
+                <p>
+                  Human reasoning often makes use of explicit causal models, allowing humans to explain,
+                  hypothesize, and extrapolate to different domains in uncertain scenarios. This project
+                  aims to harness the general causal reasoning abilities of the average human to guide
+                  robots in specific tasks. We explore if human mental models of objects, even when flawed,
+                  can be integrated with a collaborative robot's decision-making framework to allow it to
+                  make smarter choices for different object-related tasks such as assembly and troubleshooting.
+                  We also explore how human causal models can be strategically integrated with Large Language
+                  Models (LLMs) to improve planning outcomes under uncertainty for object assembly and
+                  troubleshooting tasks.
+                </p>
+                <p><b>Funding:</b> ONR ($925,598, June 2022-June 2026)</p>
+                <p><b>Collaborators:</b> S. Sloman (co-PI)</p>
+              </div>
+            </div>
+            <br>
+            <div class="card-row">
+              <div class="card-column text-column">
+                <h3>Real-time, Energy-efficient Hardware Acceleration for Robot Applications</h3>
+                <p>
+                  Autonomous Mobile Robots have shown significant promise for many real-world applications.
+                  To complete such tasks, these systems require a robust system comprising sensing, planning,
+                  and control, all of which can be very computationally expensive, affecting both runtime and
+                  energy consumption. We propose a framework for developing FPGA-accelerated kernels for
+                  robotics applications through hardware-software co-design. Our design approach exposes
+                  fine-grained parallelism and eliminates synchronization bottlenecks via deep pipelining
+                  across algorithmic stages.
+                </p>
+                <p><b>Funding:</b> NSF ($500,000, June 2021-2026)</p>
+                <p><b>Collaborators:</b> R. I. Bahar (sole-PI)</p>
+              </div>
+            </div>
+            <br>
+            <div class="card-row">
+              <div class="card-column text-column">
+                <h3>High-performance Secure Memory for Heterogeneous Systems</h3>
+                <p>
+                  The increasing dependence on information technology has made us more vulnerable to
+                  sophisticated computer-based attacks. To improve the trust in computing systems, data can
+                  be protected with a secure memory system, but this requires data encryption and special
+                  data structures to protect data before going out to memory, which can lead to significant
+                  performance overheads. This project investigates various approaches to improve implementation
+                  costs of secure memory in terms of runtime, hardware overhead, memory utilization, scalability,
+                  and energy consumption.
+                </p>
+                <p><b>Funding:</b> NSF ($500,000, June 2019-June 2023)</p>
+                <p><b>Collaborators:</b> M. Herlihy, T. Moreshet (co-PIs)</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="publications" class="content-section">
+          <div class="content-card">
+            <h2>Publications</h2>
+            <div
+              id="pub-filterbar"
+              class="pub-filterbar"
+              role="tablist"
+              aria-label="Publication filters"
+            ></div>
+
+            <div id="pub-list" class="pub-list" aria-live="polite"></div>
+
+            <nav
+              id="pub-pagination"
+              class="pub-pagination"
+              aria-label="Publications pagination"
+            ></nav>
+          </div>
+        </section>
+
+        <section id="students" class="content-section">
+          <div class="content-card">
+            <h2>Current Students</h2>
+            <div class="students-container"></div>
+            <h2>Past Students</h2>
+            <div class="past-students-container"></div>
+            <h2>Interested in working with me ?</h2>
+            <a
+              href="https://forms.gle/cKDRh4af7XwyFLHu5"
+              target="_blank"
+              id="apply-btn"
+              >Apply here</a
+            >
+          </div>
+        </section>
+
+        <section id="teaching" class="content-section">
+          <div class="content-card" id="teaching-card">
+            <div class="carousel-inner-wrapper">
+              <div class="carousel-track">
+                <!---------------- Slide 1: Early Teaching ---------------->
+                <div class="slide-content">
+                  <div class="card-row">
+                    <div class="card-column text-column">
+                      <h2>Teaching</h2>
+                      <br />
+                      <h3>Brown University (1996-2010s)</h3>
+                      <ul>
+                        <li>Electrical circuits</li>
+                        <li>Digital logic</li>
+                        <li>Computer architecture (grad/undergrad level)</li>
+                        <li>VLSI design (grad/undergrad level)</li>
+                      </ul>
+                      <br />
+                      <h3>Starting in 2009 (to 2012)</h3>
+                      <ul>
+                        <li>Introduction to engineering (freshmen level)</li>
+                        <li>
+                          Focused on statics/mechanics with a bit of design
+                        </li>
+                      </ul>
+                      <br />
+                      <h3>Starting in 2016</h3>
+                      <ul>
+                        <li>
+                          Frustrated by lack of diversity in my upper-level
+                          classes (gender, ethnic, racial, interests)
+                        </li>
+                        <li>
+                          Questioned lack of interdisciplinary design-oriented
+                          courses in curriculum
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-column image-column">
+                      <img src="assets/images/brownlogo.jpg" style="max-width: 80%"/>
+                      <img src="assets/images/mineslogo.jpg" style="max-width: 80%"/>
+                    </div>
+                  </div>
+                </div>
+
+                <!---------------- Slide 2: Design of Robotic Systems ---------------->
+                <div class="slide-content">
+                  <div class="card-row">
+                    <div class="card-column text-column">
+                      <h2>Design of Robotic Systems</h2>
+                      <br>
+                      <ul>
+                        <li>Emphasis on the design process</li>
+                        <li>Projects are open-ended, team driven</li>
+                        <li>
+                          Students benefit from diversity:
+                          <ul>
+                            <li>
+                              Mix of CS, engineering, visual arts, RISD students
+                            </li>
+                            <li>
+                              Learn from each and contribute a unique
+                              perspective and skill set.
+                            </li>
+                            <li>40% women, more ethnic diversity</li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <br />
+                      <p><b>5 main projects:</b></p>
+                      <ol>
+                        <li>Motor control with a self-made H-bridge (from transistors)</li>
+                        <li>Embedded LED matrix demonstrating time multiplexing & address decoding</li>
+                        <li>2-degree of freedom robot arm using PID control</li>
+                        <li>Signal processing through timing interrupts</li>
+                        <li>Final project that incorporates concepts from previous projects</li>
+                      </ol>
+                      <br>
+                      <p><b>Projects completed in teams of 3-4 students</b></p>
+                      <ul>
+                        <li>I assigned teams (to ensure diversity), except for the final project</li>
+                        <li>All projects included some creative component of team’s own choosing</li>
+                        <li>1-2 weeks allocated to each project (5-6 weeks for final project)</li>
+                      </ul>
+                    </div>
+                    <div class="card-column image-column">
+                      <img src="assets/images/pinball.PNG"></img>
+                      <br>
+                        <!--TODO: Make video sizing responsive-->
+                      <video width="380" height="240" controls>
+                        <source src="assets/videos/eyeball.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+
+                <!---------------- Slide 3: The Robots Are Coming! (Project 1) ---------------->
+                <div class="slide-content">
+                  <div class="card-row">
+                    <div class="card-column text-column">
+                      <h2>The Robots Are Coming!</h2>
+                        <br>
+                        <p>This course aims to augment existing artistic robots and design new dynamic interactive
+                            creations. Students enhance these robots with new mechanical, electrical, software, and
+                            artistic features while considering the uses of technology and its interaction within
+                            society. Students from diverse concentrations are encouraged to enroll.
+                        </p>
+                        <br>
+                        <h3>Project #1: Split-flap display</h3>
+                        <ul>
+                            <li>Students redesign THINK bot with split-flap messaging</li>
+                        </ul>
+                        <br>
+                        <p><b>Part 1: Design a single-character split-flap controller</b></p>
+                        <ul>
+                            <li><i>Topics explored:</i> interrupt handlers, stepper motors, Hall effect sensors, 3D printing</li>
+                            <li><i>Multiple teams:</i> 4-5 students/team. Each team consists of a diverse mix of students (gender, major, year)</li>
+                            <li><i>Design critique:</i> Best features of each team’s design will be voted on and used for the full display</li>
+                        </ul>
+                        <br>
+                        <p><b>Part 2: Design an 8-character split-flap display</b></p>
+                        <ul>
+                            <li><i>Topics explored:</i> SW communication protocols, CAD design, electrical system design, poetry and calligraphy</li>
+                            <li><i>5 teams:</i> SW, electrical, CAD, poetry, documentation & integration</li>
+                            <li><i>Team dynamics:</i>Team deliverables and communication were critical to success of project</li>
+                        </ul>
+                    </div>
+                    <div class="card-column image-column">
+                      <img src="assets/images/THINKbot.jpeg" class="image-column vertical">
+                    </div>
+                  </div>
+                </div>
+
+                <!---------------- Slide 4: The Robots Are Coming! (Project 2) ---------------->
+                <div class="slide-content">
+                  <div class="card-row">
+                    <div class="card-column text-column">
+                      <h2>The Robots Are Coming!</h2>
+                      <br>
+                      <h3>Project #2: Student-initiated creations</h3>
+                      <br>
+
+                      <p><b>The Swarm Scallop Box</b></p>
+                      <p><i>Inspiration:</i><p>
+                      <ul>
+                        <li>Raise awareness of human interference on natural habitats and environments impacting sea life</li>
+                        <li> Scallops open/close mouths to swim away from danger</li>
+                      </ul>
+                      <br>
+                      <p><i>Features:</i></p>
+                      <ul>
+                        <li>Opening box starts music & scallop swimming</li>
+                        <li>Turn shell on side of box changes speed of scallops swimming & music tempo.</li>
+                      </ul>
+                      <br>
+
+                      <p><b>The Page Turner</b></p>
+                      <p><i>Inspiration: Makers Making Change</i></p>
+                      <ul>
+                        <li>Build a device for a quadriplegic to turn pages of a book by pressing a button.</li>
+                        <li>Assistive technology as an example of the human-supporting potential of technology.</li>
+                        <li>Bring people closer to the physical world by reading a book instead of a screen.</li>
+                      </ul>
+                      <br>
+                      <p><i>Features:</i></p>
+                      <ul>
+                        <li>Aesthetic inspiration from record players</li>
+                        <li>Used inverse kinematics to control the arm using positional targets</li>
+                      </ul>
+                    </div>
+                    <div class="card-column image-column">
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <video width="380" height="240" controls>
+                        <source src="assets/videos/scallops.mp4" type="video/mp4" />
+                      </video>
+                      <video width="380" height="240" controls>
+                        <source src="assets/videos/pageturner.mp4" type="video/mp4" />
+                      </video>
+                    </div>
+                  </div>
+                </div>
+
+                <!---------------- Slide 5 Senior Capstone ---------------->
+                <div class="slide-content">
+                  <div class="card-row">
+                    <div class="card-column text-column">
+                      <h2>Senior Capstone</h2>
+                      <br>
+                      <p><b>Prompt:</b> Design an interactive robotic art installation that engages with people through
+                        light, sound, motion and prompts reflection on human interaction with robots in society.
+                      </p>
+                      <br>
+                      <h3>The Emotional Flowerbed</h3>
+                      <ul>
+                        <li>Visitors interact with the installation, and it
+                            responds with motion, sounds, and light based
+                            on the collective emotional state of its users.
+                        </li>
+                        <li>Connects individuals through shared emotional
+                            expression while incorporating elements of
+                            engineering, design, and technology.
+                        </li>
+                        <li>Integrates mechanical movement, electronic
+                            control systems, and interactive software to
+                            create a seamless and immersive experience.
+                        </li>
+                      </ul>
+                      <br>
+                      <br>
+                      <br>
+                      <img width="480" hieght="360" src="assets/images/flowerbed2.PNG"></img>
+                    </div>
+                    <div class="card-column image-column">
+                        <img src="assets/images/flowerbed.PNG"></img>
+                        <br>
+                        <br>
+                        <video width="480" height="262" controls>
+                            <source src="assets/videos/flowerbedDemo.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Dots -->
+              <div class="carousel-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="appointment" class="content-section">
+          <div class="content-card">
+            <h2>Appointment</h2>
+            <div class="form-container">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSffjvDo6H8_LLnVK89CU0LkisKoDjStgubGDvcBIq5Mex0VXQ/viewform?embedded=true"
+              width="640"
+              height="1774"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              >Loading…</iframe
+            >
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+      <div class="contact-links">
+        <a href="mailto:ribahar@mines.edu" class="contact-link" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/r-iris-bahar-09a2915/"
+          target="_blank"
+          class="contact-link"
+          title="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com"
+          target="_blank"
+          class="contact-link"
+          title="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="assets/documents/rbahar_cv.pdf" target="_blank" class="contact-link">
+            <i class="fa-solid fa-file-lines"></i>
+          </a>
+        <a href="tel:+13033842184" class="contact-link" title="Phone">
+          <i class="fa-solid fa-phone"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/iris.bahar/"
+          target="_blank"
+          class="contact-link"
+          title="Facebook"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+      </div>
+
+    <script src="js/home.js"></script>
+    <script src="js/publications.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/linkedin-posts.js"></script>
+    <script src="js/students.js"></script>
+  </body>
+</html>

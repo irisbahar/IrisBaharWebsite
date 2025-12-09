@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #21314d;
+  --accent-light: #dce7f5;
+  --bg-light: #f5f5f5;
+  --text-dark: #333;
+  --white: #ffffff;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+  background-color: #f5f5f5;
+  color: var(--text-dark);
+
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cs-mines {
+  text-decoration: none;
+  background-color: #21314d;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.university-logo {
+  height: 50px;
+  width: auto;
+}
+
+.header-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+/* Main Content Area */
+.main-content {
+  margin-left: 300px;
+  margin-top: 70px;
+  padding: 10px;
+  min-height: calc(100vh - 70px);
+  max-width: 1500px;
+}
+
+@media (max-width: 770px) {
+  .main-content {
+    margin-left: 0;
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+
+
+.overview {
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px 28px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  margin-bottom: 24px;
+}
+
+#postsContainer {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.post-card {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 500px;
+  flex-shrink: 0;
+  height: 600px;
+}
+
+.post-card img {
+  width: 100%;
+  border-radius: 5px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.post-card p {
+  text-overflow: ellipsis;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.headerImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.headerImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.headerNameTitle {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerNameTitle h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.headerNameTitle h5 {
+  margin: 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.post-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 10px;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 500px;
+  flex-shrink: 0;
+}
+
+/* --------------------- Styling for everything on a white content card --------------------- */
+.content-section {
+  padding: 24px 20px;
+  scroll-margin-top: 10px;
+}
+
+.content-card {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 24px 28px;
+  margin-bottom: 10px;
+}
+
+.content-card h1 {
+  font-size: 2.5rem;
+  color: var(--card-dark);
+}
+
+.content-card h2 {
+  font-size: 1.7rem;
+  color: var(--card-dark);
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.content-card h3 {
+  font-size: 1.2rem;
+  color: var(--card-dark);
+  font-weight: 600;
+}
+
+.content-card p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-dark);
+}
+
+.content-card li {
+  margin-left: 1rem;
+}
+
+.content-card li i {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Card rows and columns */
+.card-row {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.text-column {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.image-column {
+  flex: 0 0 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  align-self: flex-end;
+  margin-top: 3.5rem;
+  display: block;
+  padding-right: 3rem;
+}
+
+.vertical {
+  max-width: 80% !important;
+}
+
+.image-column video {
+  margin-right: 3rem;
+}
+
+/* ----------------- Carousel specific ----------------- */
+#teaching-card .carousel-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+#teaching-card .carousel-inner-wrapper {
+  overflow: hidden;
+}
+
+#teaching-card .slide-content {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Dots */
+#teaching-card .carousel-dots {
+  text-align: center;
+  margin-top: 12px;
+}
+
+#teaching-card .carousel-dots .dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#teaching-card .carousel-dots .dot.active {
+  background-color: var(--primary-color);
+}
+
+/* ----------------- Appointment  ----------------- */
+
+#apply-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: var(--primary-color);
+  color: var(--white);
+  text-decoration: none;
+  margin: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.form-container iframe {
+  border: none;
+  overflow: hidden;
+  width: 100%;
+  max-width: 640px;
+  height: 1800px;
+
+}

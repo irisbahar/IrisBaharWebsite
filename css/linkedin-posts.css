@@ -1,0 +1,38 @@
+/* LinkedIn Posts Container - Horizontal Scrolling */
+#linkedin-posts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: visible;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+}
+
+/* Webkit scrollbar styling for container (for Safari and iOS) */
+#linkedin-posts-container::-webkit-scrollbar {
+  height: 10px;
+}
+
+#linkedin-posts-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+#linkedin-posts-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+#linkedin-posts-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Individual LinkedIn post iframe */
+.linkedin-post-iframe {
+  flex-shrink: 0;
+  width: 504px;
+  height: 698px; /* This is an important magic number, it just works */
+  border: none;
+  display: block;
+}

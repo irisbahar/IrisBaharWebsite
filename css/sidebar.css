@@ -1,0 +1,231 @@
+/* CSS Variables for Sidebar */
+:root {
+    --primary-color: #21314D;
+    --accent-light: #DCE7F5;
+    --bg-light: #f5f5f5;
+    --text-dark: #333;
+    --white: #ffffff;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 70px;
+    width: 300px;
+    height: calc(100vh - 70px);
+    background: var(--primary-color);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+/* Profile Section */
+.profile-section {
+    padding: 16px 20px;
+    text-align: center;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.professor-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.bio {
+    font-size: 1rem;
+    line-height: 1.1;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Main Navigation Links */
+.nav-links {
+    list-style: none;
+    padding: 12px 36px;
+    flex-grow: 1;
+}
+
+.nav-links li {
+    margin: 0;
+    padding: 5px 15px;
+}
+
+.nav-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 16px;
+    color: var(--white);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+}
+
+.nav-link:hover {
+    background-color: rgba(220, 231, 245, 0.3);
+    color: var(--accent-light);
+}
+
+.nav-link.active {
+    background-color: var(--accent-light);
+    color: var(--primary-color);
+}
+
+.nav-link i {
+    width: 24px;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+
+.nav-link span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid var(--white);
+}
+
+.hr-contacts {
+    border: none;
+    border-top: 2px solid var(--white);
+    color: var(--white);
+    overflow: visible;
+    text-align: center;
+    height: 6px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hr-contacts::after {
+    background: var(--primary-color);
+    content: "Contact";
+    padding: 0 8px;
+    position: relative;
+    top: -12px;
+}
+
+/* Contact Links */
+.contact-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+
+.contact-link {
+    color: var(--white);
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+    padding: 10px;
+}
+
+.contact-link:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 770px) {
+  .contact-links {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: var(--primary-color);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    z-index: 1000;
+  }
+
+  .contact-link {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .main-content {
+    padding-bottom: 80px;
+  }
+}
+
+/* Focus States for Accessibility */
+.nav-link:focus,
+.contact-link:focus {
+    outline: 2px solid var(--accent-light);
+    outline-offset: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 60px;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    .professor-name {
+        font-size: 1.3rem;
+    }
+
+    .bio {
+        font-size: 0.85rem;
+    }
+
+    .nav-link {
+        padding: 12px 20px;
+    }
+
+    .contact-links {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        width: 100%;
+        top: 50px;
+    }
+
+    .profile-section {
+        padding: 20px 15px;
+    }
+
+    .profile-picture {
+        width: 80px;
+        height: 80px;
+    }
+
+    .nav-link span {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Dr Iris Bahar",
+  "title": "Department Head and Professor, Computer Science",
+  "overview": "Since January 2022, Iris Bahar is the Computer Science Department Head and Professor at the Colorado School of Mines. Her research interests lie broadly in areas of computer system design and design automation. A main theme of her research over the years has been energy-efficient and reliable computing, from robots, to high-end processors, embedded systems, and emerging technologies.\nBetween her M.S. and Ph.D. studies, she worked for 5 years at Digital Equipment Corporation, mainly on their VAX microprocessor designs.\nPrior to joining CS@Mines as Department Head, she was faculty at Brown University for 26 years with a joint appointment in the School of Engineering and Department of Computer Science.\nHer research has been continuously funded since 1997 through various industrial and government sources, including the NSF (including a career award), DARPA, DoD, the Semiconductor Research Corporation (SRC), Intel, IBM, Facebook, and NASA.\nShe is the 2019 recipient of the Marie R. Pistilli Women in Engineering Achievement Award and the Brown University School of Engineering Award for Excellence in Teaching in Engineering.\nShe is an IEEE Fellow and ACM Distinguished Scientist.",
+  "posts": [
+    {
+      "desc": "I just wrapped up Session II of the ELATES Fellows program in Philadelphia this past week. It was an empowering, engaging (and exhausting!) week. The Incredible University exercise was especially fun. Thanks to my Think in CAPS team for pulling together a great proposal in such a short amount of time. Looking forward to returning in March for the final session! I am grateful to the Colorado School of Mines for sponsoring my participation in this wonderful program and investing in leadership training that advances our shared mission.",
+      "image": "./post1.jpeg",
+      "link": "https://www.linkedin.com/posts/r-iris-bahar-09a2915_i-just-wrapped-up-session-ii-of-the-elates-activity-7394154285883842560-C9bj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADceOEMBfhp6c87ps_0xCO6j03eaDFa6moU"
+    },
+    {
+      "desc": "Thanks to Tim K.-T. Cheng, Bastian Mohr, Ian O'Connor, and Vivek Prasad, who participated in the Research Panel at DAC, The Chips to Systems Conference on Navigating the Tides of Funding for Chips and System Design. We had a very spirited discussion on the roles of government and industry funding cutting edge research across the globe in chip and system design and discussed ways of growing the workforce in the coming years. There are more opportunities out there than many people think! Thank you X. Sharon Hu and Norbert Wehn for organizing this panel!",
+      "image": "./post2.jpeg",
+      "link": "https://www.linkedin.com/posts/r-iris-bahar-09a2915_thanks-to-tim-k-t-cheng-bastian-mohr-activity-7343392890791829505-gx7j?utm_source=share&utm_medium=member_desktop&rcm=ACoAADceOEMBfhp6c87ps_0xCO6j03eaDFa6moU"
+    },
+    {
+      "desc": "Congratulations to Dr. Samuel Thomas for graduating with his PhD in Computer Science from Brown University!! It has been a pleasure advising you these past 5 years. \nThank you to the National Science Foundation (NSF) for supporting Sam's dissertation research in secure memory design. Thank you also to Brown University Department of Computer Science for providing Sam with rewarding teaching opportunities along the way. Best of luck, Sam, as you embark on your next life journey as Assistant Professor of Computer Science at Pomona College !",
+      "image": "./post3.jpeg",
+      "link": "https://www.linkedin.com/posts/r-iris-bahar-09a2915_congratulations-to-dr-samuel-thomas-for-activity-7337239051659264001-t5Wd?utm_source=share&utm_medium=member_desktop&rcm=ACoAADceOEMBfhp6c87ps_0xCO6j03eaDFa6moU"
+    },
+    {
+      "desc": "Congratulations to my Brown University PhD student Semanti Basu for her lead-author publication at hashtag#ICRA2025! Semanti gave a nice flash talk followed by a poster presentation of her work on using human generated causal models to assist in robot planning under uncertainty. Well done, Semanti!\nThank you also to my co-authors, Semir Tatlıdil, Moon Hwan Kim, Tiffany Tran, Serena Saxena, Tom Williams, and Steven Sloman.\nThe full paper can be found on Tom's webpage: https://lnkd.in/gN9Y3MM7",
+      "image": "./post4.jpeg",
+      "link": "https://www.linkedin.com/posts/r-iris-bahar-09a2915_icra2025-activity-7333332264367390720-A2ym?utm_source=share&utm_medium=member_desktop&rcm=ACoAADceOEMBfhp6c87ps_0xCO6j03eaDFa6moU"
+    },
+    {
+      "desc": "It was a great honor to be the keynote speaker at the ECEE University of Colorado annual awards dinner last week. My years at CU-Boulder as a PhD student were a very influential time for me that I will always cherish. To the graduating class of 2025, remember to trust yourself, be brave, and carry on!\n",
+      "image": "./post5.jpeg",
+      "link": "https://www.linkedin.com/posts/r-iris-bahar-09a2915_it-was-a-great-honor-to-be-the-keynote-speaker-activity-7324572501634600960-pAaR?utm_source=share&utm_medium=member_desktop&rcm=ACoAADceOEMBfhp6c87ps_0xCO6j03eaDFa6moU"
+    },
+    {
+      "desc": "Congratulations to our three CS faculty members who were recognized last week at the Colorado School of Mines faculty awards celebration. DONG CHEN was just promoted to Associate Professor with tenure, Tolga Can received the CS student choice award for Outstanding Faculty, and Rob Thompson was selected for this year's Mines Teaching Award. I am grateful to have such wonderful faculty in our ranks!",
+      "image": "./post6.jpeg",
+      "link": "https://www.linkedin.com/posts/r-iris-bahar-09a2915_congratulations-to-our-three-cs-faculty-members-activity-7324563265265577984-Avev?utm_source=share&utm_medium=member_desktop&rcm=ACoAADceOEMBfhp6c87ps_0xCO6j03eaDFa6moU"
+    }
+  ]
+}
