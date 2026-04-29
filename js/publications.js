@@ -29,7 +29,7 @@ function formatDate(dateStr) {
   if (!dateStr) return '';
   const parts = String(dateStr).split('-');
   if (parts.length === 3) {
-    const d = new Date(dateStr);
+    const d = new Date(parseInt(parts[0],10), parseInt(parts[1],10)-1, parseInt(parts[2],10));
     if (!isNaN(d)) return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
   } else if (parts.length === 2) {
     const d = new Date(parts[0], parseInt(parts[1],10)-1);

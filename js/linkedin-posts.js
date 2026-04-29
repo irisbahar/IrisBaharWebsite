@@ -22,6 +22,7 @@ async function loadLinkedInPosts() {
       iframe.allowFullscreen = true;
       iframe.title = 'Embedded post';
       iframe.className = 'linkedin-post-iframe';
+      iframe.loading = 'lazy';
 
       container.appendChild(iframe);
     });
