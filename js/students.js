@@ -66,8 +66,14 @@ fetch("./data/students.json")
       let description;
       if(pastStudent?.co_advised_with) {
       description = document.createElement("p");
-      description.textContent = `Co advised with : ${pastStudent?.co_advised_with}`
+      description.textContent = `Co advised with ${pastStudent?.co_advised_with}`
       pastStudentCard.appendChild(description);
+      }
+
+      if (pastStudent?.currently_working_at) {
+        const currentJob = document.createElement("p");
+        currentJob.textContent = `Currently working at ${pastStudent.currently_working_at}`;
+        pastStudentCard.appendChild(currentJob);
       }
 
      // studentCard.appendChild(pastStudentImg);

@@ -22,16 +22,29 @@
       "image": "./assets/students/JadonJohnson.jpeg"
     }
   ],
+
   "pastStudents": [
-    { "name": "Yu Bai", "date": "August 2004" },
-    { "name": "Hui-Yuan Song", "date": "September 2005" },
+    {
+      "name": "Yu Bai",
+      "date": "August 2004"
+    },
+    {
+      "name": "Hui-Yuan Song",
+      "date": "September 2005"
+    },
     {
       "name": "Tali Moreshet",
       "date": "May 2006",
       "co_advised_with": "Maurice Herlihy"
     },
-    { "name": "Kundan Nepal", "date": "May 2007" },
-    { "name": "Desta Tadesse", "date": "May 2009" },
+    {
+      "name": "Kundan Nepal",
+      "date": "May 2007"
+    },
+    {
+      "name": "Desta Tadesse",
+      "date": "May 2009"
+    },
     {
       "name": "Cesare Ferri",
       "date": "May 2011",
@@ -47,17 +60,40 @@
       "date": "May 2015",
       "co_advised_with": "Sherief Reda"
     },
-    { "name": "Onur Ulusel", "date": "May 2016" },
-    { "name": "Marco Donato", "date": "May 2016" },
-    { "name": "Dimitra Papagiannopoulou", "date": "May 2016" },
-    { "name": "Christopher Picardo", "date": "May 2018" },
+    {
+      "name": "Onur Ulusel",
+      "date": "May 2016"
+    },
+    {
+      "name": "Marco Donato",
+      "date": "May 2016"
+    },
+    {
+      "name": "Dimitra Papagiannopoulou",
+      "date": "May 2016"
+    },
+    {
+      "name": "Christopher Picardo",
+      "date": "May 2018"
+    },
     {
       "name": "Jiwon Choe",
       "date": "May 2022",
-      "co_advised_with": "Maurice Herlihy"
+      "co_advised_with": "Maurice Herlihy",
+      "currently_working_at": "Apple"
     },
-    { "name": "Yanqi Liu", "date": "May 2022" },
-    { "name": "Samuel Thomas", "date": "May 2025" },
-    { "name": "Semanti Basu", "date": "June 2025" }
+    {
+      "name": "Yanqi Liu",
+      "date": "May 2022"
+    },
+    {
+      "name": "Samuel Thomas",
+      "date": "May 2025"
+    },
+    {
+      "name": "Semanti Basu",
+      "date": "June 2025",
+      "currently_working_at": "Gatik AI"
+    }
   ]
 }
