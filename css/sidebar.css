@@ -124,6 +124,14 @@ hr {
     padding: 12px;
 }
 
+/* Hide the body-level contact bar on desktop; the sidebar already shows contacts.
+   It reappears as a fixed mobile bar via the @media block below. */
+@media (min-width: 771px) {
+  body > .contact-links {
+    display: none;
+  }
+}
+
 .contact-link {
     color: var(--white);
     font-size: 1.3rem;
