@@ -217,16 +217,6 @@ function renderList(page = 1) {
   renderPagination(total, page, lastPage);
 }
 
-function makePageButton(label, pageIndex, isActive=false, disabled=false) {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.className = 'page-pill' + (isActive ? ' active' : '');
-  if (disabled) btn.setAttribute('aria-disabled', 'true');
-  btn.textContent = label;
-  if (!disabled) btn.addEventListener('click', () => { currentPage = pageIndex; renderList(pageIndex); });
-  return btn;
-}
-
 /* ---------- Pagination ---------- */
 
 function renderPagination(totalItems, current, last) {
@@ -336,12 +326,5 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // Try to load from cleaned_works.json, else fallback
-  loadPublicationsFromFile('./data/cleaned_works.json')
-    .catch(() => {
-      publicationsData = (window.publicationsDataGlobal && Array.isArray(window.publicationsDataGlobal))
-        ? window.publicationsDataGlobal.map(normalizeWork)
-        : samplePublications.map(normalizeWork);
-      update();
-    });
+  loadPublicationsFromFile('./data/cleaned_works.json');
 });
