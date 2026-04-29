@@ -127,6 +127,8 @@ function renderFilterBar(data) {
   const allPill = document.createElement('button');
   allPill.className = 'pub-filter-pill' + (currentFilter === 'all' ? ' active' : '');
   allPill.setAttribute('data-type', 'all');
+  allPill.setAttribute('role', 'tab');
+  allPill.setAttribute('aria-selected', currentFilter === 'all' ? 'true' : 'false');
   allPill.textContent = `All (${total})`;
   allPill.addEventListener('click', () => { currentFilter = 'all'; currentPage = 1; update(); });
   pubFilterbarEl.appendChild(allPill);
@@ -135,6 +137,8 @@ function renderFilterBar(data) {
     const pill = document.createElement('button');
     pill.className = 'pub-filter-pill' + (currentFilter === t ? ' active' : '');
     pill.setAttribute('data-type', t);
+    pill.setAttribute('role', 'tab');
+    pill.setAttribute('aria-selected', currentFilter === t ? 'true' : 'false');
     pill.textContent = `${humanReadableType(t)} (${counts[t]})`;
     pill.addEventListener('click', () => { currentFilter = t; currentPage = 1; update(); });
     pubFilterbarEl.appendChild(pill);

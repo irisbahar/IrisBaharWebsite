@@ -18,17 +18,17 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <a href="https://www.mines.edu/" target="_blank" class="logo-link">
+      <a href="https://www.mines.edu/" target="_blank" rel="noopener noreferrer" class="logo-link">
         <img
           src="https://www.mines.edu/wp-content/uploads/2023/05/Mines-Institutional-Mark.png"
           alt="Colorado School of Mines"
           class="university-logo"
         />
       </a>
-      <a href="https://cs.mines.edu/faculty-and-staff/" target="_blank" class="logo-link">
-      <h1 class="header-name">Dr. Iris Bahar</h1>
+      <a href="https://cs.mines.edu/faculty-and-staff/" target="_blank" rel="noopener noreferrer" class="logo-link">
+      <span class="header-name">Dr. Iris Bahar</span>
       </a>
-      <a href="https://cs.mines.edu/" target="_blank" class="cs-mines">
+      <a href="https://cs.mines.edu/" target="_blank" rel="noopener noreferrer" class="cs-mines">
         CS@Mines
       </a>
     </header>
@@ -52,46 +52,46 @@
       <ul class="nav-links">
         <li>
           <a href="#home" class="nav-link">
-            <i class="fa-solid fa-house"></i>
+            <i class="fa-solid fa-house" aria-hidden="true"></i>
             <span>Home</span>
           </a>
         </li>
         <li>
           <a href="#research" class="nav-link">
-            <i class="fa-solid fa-flask"></i>
+            <i class="fa-solid fa-flask" aria-hidden="true"></i>
             <span>Research</span>
           </a>
         </li>
         <li>
           <a href="#publications" class="nav-link">
-            <i class="fa-solid fa-book"></i>
+            <i class="fa-solid fa-book" aria-hidden="true"></i>
             <span>Publications</span>
           </a>
         </li>
         <li>
-          <a href="assets/documents/rbahar_cv.pdf" target="_blank" class="nav-link">
-            <i class="fa-solid fa-file-lines"></i>
+          <a href="assets/documents/rbahar_cv.pdf" target="_blank" rel="noopener noreferrer" class="nav-link">
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
             <span>CV</span>
           </a>
         </li>
         <li>
           <a href="#students" class="nav-link">
-            <i class="fa-solid fa-user-graduate"></i>
+            <i class="fa-solid fa-user-graduate" aria-hidden="true"></i>
             <span>Students</span>
           </a>
         </li>
         <li>
           <a href="#teaching" class="nav-link">
-            <i class="fa-solid fa-chalkboard-user"></i>
+            <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>
             <span>Teaching</span>
           </a>
         </li>
-        <li>
-          <!--<a href="#appointment" class="nav-link">
-            <i class="fa-solid fa-calendar-check"></i>
+        <!-- <li>
+          <a href="#appointment" class="nav-link">
+            <i class="fa-solid fa-calendar-check" aria-hidden="true"></i>
             <span>Appointment</span>
-          </a>-->
-        </li>
+          </a>
+        </li> -->
       </ul>
 
       <hr class="hr-contacts" />
@@ -99,34 +99,34 @@
       <!-- Contact Links -->
       <div class="contact-links">
         <a href="mailto:ribahar@mines.edu" class="contact-link" title="Email">
-          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/r-iris-bahar-09a2915/"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           class="contact-link"
           title="LinkedIn"
         >
-          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
         </a>
         <a
           href="https://github.com/irisbahar"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           class="contact-link"
           title="GitHub"
         >
-          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
         </a>
         <a href="tel:+13033842184" class="contact-link" title="Phone">
-          <i class="fa-solid fa-phone"></i>
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
         </a>
         <a
           href="https://www.facebook.com/iris.bahar/"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           class="contact-link"
           title="Facebook"
         >
-          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
         </a>
       </div>
     </nav>
@@ -275,7 +275,7 @@
             <h2>Interested in working with me?</h2>
             <a
               href="https://forms.gle/cKDRh4af7XwyFLHu5"
-              target="_blank"
+              target="_blank" rel="noopener noreferrer"
               id="apply-btn"
               >Apply here</a
             >
@@ -371,7 +371,7 @@
                       <img src="assets/images/pinball.PNG">
                       <br>
                         <!--TODO: Make video sizing responsive-->
-                      <video width="380" height="240" controls>
+                      <video width="380" height="240" controls preload="none">
                         <source src="assets/videos/eyeball.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -457,10 +457,10 @@
                       <br>
                       <br>
                       <br>
-                      <video width="380" height="240" controls>
+                      <video width="380" height="240" controls preload="none">
                         <source src="assets/videos/scallops.mp4" type="video/mp4" />
                       </video>
-                      <video width="380" height="240" controls>
+                      <video width="380" height="240" controls preload="none">
                         <source src="assets/videos/pageturner.mp4" type="video/mp4" />
                       </video>
                     </div>
@@ -501,7 +501,7 @@
                         <img src="assets/images/flowerbed.PNG">
                         <br>
                         <br>
-                        <video width="480" height="262" controls>
+                        <video width="480" height="262" controls preload="none">
                             <source src="assets/videos/flowerbedDemo.mp4" type="video/mp4" />
                         </video>
                     </div>
@@ -510,14 +510,8 @@
 
               </div>
 
-              <!-- Dots -->
-              <div class="carousel-dots">
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-              </div>
+              <!-- Dots are generated by js/carousel.js based on .slide-content count -->
+              <div class="carousel-dots"></div>
             </div>
           </div>
         </section>
@@ -547,46 +541,46 @@
           class="contact-link"
           title="Email"
         >
-          <i class="fa-solid fa-envelope"></i>
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/r-iris-bahar-09a2915/"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           class="contact-link"
           title="LinkedIn"
         >
-          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
         </a>
         <a
           href="https://github.com/irisbahar"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           class="contact-link"
           title="GitHub"
         >
-          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-github" aria-hidden="true"></i>
         </a>
         <a
           href="assets/documents/rbahar_cv.pdf"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           class="contact-link"
           title="CV"
         >
-            <i class="fa-solid fa-file-lines"></i>
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i>
           </a>
         <a
           href="tel:+13033842184"
           class="contact-link"
           title="Phone"
         >
-          <i class="fa-solid fa-phone"></i>
+          <i class="fa-solid fa-phone" aria-hidden="true"></i>
         </a>
         <a
           href="https://www.facebook.com/iris.bahar/"
-          target="_blank"
+          target="_blank" rel="noopener noreferrer"
           class="contact-link"
           title="Facebook"
         >
-          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-facebook" aria-hidden="true"></i>
         </a>
       </div>
 
@@ -594,5 +588,6 @@
     <script src="js/carousel.js"></script>
     <script src="js/linkedin-posts.js"></script>
     <script src="js/students.js"></script>
+    <script src="js/nav-active.js"></script>
   </body>
 </html>

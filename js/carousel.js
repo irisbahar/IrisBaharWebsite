@@ -1,13 +1,14 @@
 const track = document.querySelector('.carousel-track');
-const dots = document.querySelectorAll('.carousel-dots .dot');
+const slides = document.querySelectorAll('.carousel-track .slide-content');
+const dotsContainer = document.querySelector('.carousel-dots');
 
-dots.forEach((dot, index) => {
+slides.forEach((_, index) => {
+  const dot = document.createElement('span');
+  dot.className = 'dot' + (index === 0 ? ' active' : '');
   dot.addEventListener('click', () => {
-    // Move the track to show the clicked card
     track.style.transform = `translateX(-${index * 100}%)`;
-    
-    // Update active dot
-    dots.forEach(d => d.classList.remove('active'));
+    dotsContainer.querySelectorAll('.dot').forEach(d => d.classList.remove('active'));
     dot.classList.add('active');
   });
+  dotsContainer.appendChild(dot);
 });
