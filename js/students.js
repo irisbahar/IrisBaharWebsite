@@ -14,7 +14,7 @@ fetch("./data/students.json")
       studentImg.className = "studentImg";
 
       const headshot = document.createElement("img");
-      headshot.src = student.image || "default.jpg";
+      headshot.src = student.image || "assets/students/Default.jpg";
       headshot.alt = student.name;
 
       studentImg.appendChild(headshot);
@@ -44,15 +44,6 @@ fetch("./data/students.json")
       const pastStudentCard = document.createElement("div");
       pastStudentCard.className = "studentCard";
 
-      // const pastStudentImg = document.createElement("div");
-      // pastStudentImg.className = "studentImg";
-
-      // const headshot = document.createElement("img");
-      // headshot.src = student.image || "default.jpg";
-      // headshot.alt = student.name;
-
-      //pastStudentImg.appendChild(headshot);
-
       const pastStudentName = document.createElement("h3");
       pastStudentName.textContent = pastStudent.name;
 
@@ -62,12 +53,11 @@ fetch("./data/students.json")
       pastStudentCard.appendChild(pastStudentName);
       pastStudentCard.appendChild(graduation);
 
-
       let description;
       if(pastStudent?.co_advised_with) {
-      description = document.createElement("p");
-      description.textContent = `Co advised with ${pastStudent?.co_advised_with}`
-      pastStudentCard.appendChild(description);
+        description = document.createElement("p");
+        description.textContent = `Co advised with ${pastStudent?.co_advised_with}`
+        pastStudentCard.appendChild(description);
       }
 
       if (pastStudent?.currently_working_at) {
@@ -75,9 +65,6 @@ fetch("./data/students.json")
         currentJob.textContent = `Currently working at ${pastStudent.currently_working_at}`;
         pastStudentCard.appendChild(currentJob);
       }
-
-     // studentCard.appendChild(pastStudentImg);
-
 
       pastStudentsContainer.appendChild(pastStudentCard);
     });
