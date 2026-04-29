@@ -92,12 +92,6 @@ body::-webkit-scrollbar {
   margin-bottom: 24px;
 }
 
-#postsContainer {
-  display: flex;
-  gap: 10px;
-  overflow-x: auto;
-}
-
 .post-card {
   border: 1px solid #000000;
   border-radius: 10px;

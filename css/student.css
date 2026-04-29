@@ -34,7 +34,7 @@
 }
 
 .studentCard {
-    width: clamp(220px, 30vw, 280px); 
+    width: clamp(220px, 30vw, 280px);
     background: #ffffff;
     padding: 1.5rem;
     border-radius: 1rem;
@@ -49,7 +49,7 @@
 }
 
 .studentImg img {
-    width: clamp(90px, 10vw, 130px);   
+    width: clamp(90px, 10vw, 130px);
     height: clamp(90px, 10vw, 130px);
     border-radius: 50%;
     object-fit: cover;
