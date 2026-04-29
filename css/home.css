@@ -84,86 +84,6 @@ body::-webkit-scrollbar {
 }
 
 
-.overview {
-  background-color: white;
-  border-radius: 16px;
-  padding: 24px 28px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  margin-bottom: 24px;
-}
-
-.post-card {
-  border: 1px solid #000000;
-  border-radius: 10px;
-  padding: 10px;
-  min-width: 200px;
-  max-width: 500px;
-  flex-shrink: 0;
-  height: 600px;
-}
-
-.post-card img {
-  width: 100%;
-  border-radius: 5px;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
-}
-
-.post-card p {
-  text-overflow: ellipsis;
-}
-
-.post-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  gap: 10px;
-}
-
-.headerImg {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-
-.headerImg img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.headerNameTitle {
-  display: flex;
-  flex-direction: column;
-}
-
-.headerNameTitle h4 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.headerNameTitle h5 {
-  margin: 0;
-  font-size: 14px;
-  color: gray;
-}
-
-.post-link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  border-radius: 10px;
-  padding: 10px;
-  min-width: 200px;
-  max-width: 500px;
-  flex-shrink: 0;
-}
-
 /* --------------------- Styling for everything on a white content card --------------------- */
 .content-section {
   padding: 24px 20px;
@@ -300,6 +220,7 @@ body::-webkit-scrollbar {
   cursor: pointer;
 }
 
+/* Kept for the commented-out Appointment iframe in index.html — restore if/when that section is re-enabled.
 .form-container {
   display: flex;
   justify-content: center;
@@ -315,3 +236,4 @@ body::-webkit-scrollbar {
   height: 1800px;
 
 }
+*/
