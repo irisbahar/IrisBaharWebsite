@@ -63,6 +63,18 @@ body::-webkit-scrollbar {
   width: auto;
 }
 
+@media (max-width: 600px) {
+  .university-logo {
+    height: 36px;
+  }
+}
+
+@media (max-width: 400px) {
+  .university-logo {
+    height: 28px;
+  }
+}
+
 .header-name {
   font-size: 1rem;
   font-weight: 600;
