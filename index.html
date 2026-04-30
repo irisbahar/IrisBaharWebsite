@@ -154,95 +154,82 @@
 
         <section id="research" class="content-section">
           <div class="content-card">
-            <h2>Research Overview</h2>
-            <p>
-              Dr. Bahar's research integrates human-robot interaction, energy-efficient hardware
-              acceleration, and secure memory systems to address critical challenges in modern
-              computing and autonomous systems.
-            </p>
-          </div>
+            <section class="research-section">
+              <h2>Research Overview</h2>
+              <p>
+                Dr. Bahar's research integrates human-robot interaction, energy-efficient hardware
+                acceleration, and secure memory systems to address critical challenges in modern
+                computing and autonomous systems.
+              </p>
+            </section>
 
-          <div class="content-card">
-            <div class="card-row">
-              <div class="card-column text-column">
-                <h2>Research Areas</h2>
-                <br>
-                <h3>Human-Robot Interaction & Causal Reasoning</h3>
-                <ul>
-                  <li>Integration of human causal models with robot decision-making</li>
-                  <li>LLM-enhanced planning for object assembly and troubleshooting</li>
-                </ul>
-                <br>
-                <h3>Hardware Acceleration for Robotics</h3>
-                <ul>
-                  <li>FPGA-accelerated kernels for robot perception and planning</li>
-                  <li>Energy-efficient machine learning for autonomous systems</li>
-                </ul>
-                <br>
-                <h3>Secure & Reliable Computing Systems</h3>
-                <ul>
-                  <li>High-performance secure memory architectures</li>
-                  <li>Non-volatile memory design and data structures</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+            <hr class="card-divider">
 
-          <div class="content-card">
-            <h2>Current Research Projects</h2>
-            <br>
-            <div class="card-row">
-              <div class="card-column text-column">
-                <h3>Causal Models as a Framework for Human-Robot Interaction</h3>
-                <p>
-                  Human reasoning often makes use of explicit causal models, allowing humans to explain,
-                  hypothesize, and extrapolate to different domains in uncertain scenarios. This project
-                  aims to harness the general causal reasoning abilities of the average human to guide
-                  robots in specific tasks. We explore if human mental models of objects, even when flawed,
-                  can be integrated with a collaborative robot's decision-making framework to allow it to
-                  make smarter choices for different object-related tasks such as assembly and troubleshooting.
-                  We also explore how human causal models can be strategically integrated with Large Language
-                  Models (LLMs) to improve planning outcomes under uncertainty for object assembly and
-                  troubleshooting tasks.
-                </p>
-                <p><b>Funding:</b> ONR ($925,598, June 2022-June 2026)</p>
-                <p><b>Collaborators:</b> S. Sloman (co-PI)</p>
-              </div>
-            </div>
-            <br>
-            <div class="card-row">
-              <div class="card-column text-column">
-                <h3>Real-time, Energy-efficient Hardware Acceleration for Robot Applications</h3>
-                <p>
-                  Autonomous Mobile Robots have shown significant promise for many real-world applications.
-                  To complete such tasks, these systems require a robust system comprising sensing, planning,
-                  and control, all of which can be very computationally expensive, affecting both runtime and
-                  energy consumption. We propose a framework for developing FPGA-accelerated kernels for
-                  robotics applications through hardware-software co-design. Our design approach exposes
-                  fine-grained parallelism and eliminates synchronization bottlenecks via deep pipelining
-                  across algorithmic stages.
-                </p>
-                <p><b>Funding:</b> NSF ($500,000, June 2021-2026)</p>
-                <p><b>Collaborators:</b> R. I. Bahar (sole-PI)</p>
-              </div>
-            </div>
-            <br>
-            <div class="card-row">
-              <div class="card-column text-column">
-                <h3>High-performance Secure Memory for Heterogeneous Systems</h3>
-                <p>
-                  The increasing dependence on information technology has made us more vulnerable to
-                  sophisticated computer-based attacks. To improve the trust in computing systems, data can
-                  be protected with a secure memory system, but this requires data encryption and special
-                  data structures to protect data before going out to memory, which can lead to significant
-                  performance overheads. This project investigates various approaches to improve implementation
-                  costs of secure memory in terms of runtime, hardware overhead, memory utilization, scalability,
-                  and energy consumption.
-                </p>
-                <p><b>Funding:</b> NSF ($500,000, June 2019-June 2023)</p>
-                <p><b>Collaborators:</b> M. Herlihy, T. Moreshet (co-PIs)</p>
-              </div>
-            </div>
+            <section class="research-section">
+              <h2>Research Areas</h2>
+              <h3>Human-Robot Interaction & Causal Reasoning</h3>
+              <ul>
+                <li>Integration of human causal models with robot decision-making</li>
+                <li>LLM-enhanced planning for object assembly and troubleshooting</li>
+              </ul>
+              <h3>Hardware Acceleration for Robotics</h3>
+              <ul>
+                <li>FPGA-accelerated kernels for robot perception and planning</li>
+                <li>Energy-efficient machine learning for autonomous systems</li>
+              </ul>
+              <h3>Secure & Reliable Computing Systems</h3>
+              <ul>
+                <li>High-performance secure memory architectures</li>
+                <li>Non-volatile memory design and data structures</li>
+              </ul>
+            </section>
+
+            <hr class="card-divider">
+
+            <section class="research-section">
+              <h2>Current Research Projects</h2>
+
+              <h3>Causal Models as a Framework for Human-Robot Interaction</h3>
+              <p>
+                Human reasoning often makes use of explicit causal models, allowing humans to explain,
+                hypothesize, and extrapolate to different domains in uncertain scenarios. This project
+                aims to harness the general causal reasoning abilities of the average human to guide
+                robots in specific tasks. We explore if human mental models of objects, even when flawed,
+                can be integrated with a collaborative robot's decision-making framework to allow it to
+                make smarter choices for different object-related tasks such as assembly and troubleshooting.
+                We also explore how human causal models can be strategically integrated with Large Language
+                Models (LLMs) to improve planning outcomes under uncertainty for object assembly and
+                troubleshooting tasks.
+              </p>
+              <p><b>Funding:</b> ONR ($925,598, June 2022-June 2026)</p>
+              <p><b>Collaborators:</b> S. Sloman (co-PI)</p>
+
+              <h3>Real-time, Energy-efficient Hardware Acceleration for Robot Applications</h3>
+              <p>
+                Autonomous Mobile Robots have shown significant promise for many real-world applications.
+                To complete such tasks, these systems require a robust system comprising sensing, planning,
+                and control, all of which can be very computationally expensive, affecting both runtime and
+                energy consumption. We propose a framework for developing FPGA-accelerated kernels for
+                robotics applications through hardware-software co-design. Our design approach exposes
+                fine-grained parallelism and eliminates synchronization bottlenecks via deep pipelining
+                across algorithmic stages.
+              </p>
+              <p><b>Funding:</b> NSF ($500,000, June 2021-2026)</p>
+              <p><b>Collaborators:</b> R. I. Bahar (sole-PI)</p>
+
+              <h3>High-performance Secure Memory for Heterogeneous Systems</h3>
+              <p>
+                The increasing dependence on information technology has made us more vulnerable to
+                sophisticated computer-based attacks. To improve the trust in computing systems, data can
+                be protected with a secure memory system, but this requires data encryption and special
+                data structures to protect data before going out to memory, which can lead to significant
+                performance overheads. This project investigates various approaches to improve implementation
+                costs of secure memory in terms of runtime, hardware overhead, memory utilization, scalability,
+                and energy consumption.
+              </p>
+              <p><b>Funding:</b> NSF ($500,000, June 2019-June 2023)</p>
+              <p><b>Collaborators:</b> M. Herlihy, T. Moreshet (co-PIs)</p>
+            </section>
           </div>
         </section>
 

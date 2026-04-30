@@ -149,6 +149,32 @@ body::-webkit-scrollbar {
   font-weight: 600;
 }
 
+/* Section divider inside a content card */
+.card-divider {
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
+  width: 100%;
+}
+
+/* Spacing inside a section within a single content card */
+.research-section h2 {
+  margin-bottom: 0.75rem;
+}
+
+.research-section h3 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.research-section ul {
+  margin-bottom: 0.75rem;
+}
+
+.research-section p {
+  margin-bottom: 0.5rem;
+}
+
 /* Card rows and columns */
 .card-row {
   display: flex;
