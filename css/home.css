@@ -142,35 +142,38 @@ body::-webkit-scrollbar {
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .text-column {
-  flex: 1 1 auto;
+  flex: 1 1 320px;
   min-width: 0;
 }
 
 .image-column {
-  flex: 0 0 400px;
+  flex: 1 1 320px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-.image-column img {
+.image-column img,
+.image-column video {
   max-width: 100%;
   height: auto;
   object-fit: contain;
-  align-self: flex-end;
-  margin-top: 3.5rem;
   display: block;
-  padding-right: 3rem;
+}
+
+.image-column video {
+  width: 100%;
+  max-width: 500px;
 }
 
 .vertical {
   max-width: 80% !important;
-}
-
-.image-column video {
-  margin-right: 3rem;
 }
 
 /* ----------------- Carousel specific ----------------- */
