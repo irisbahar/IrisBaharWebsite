@@ -103,7 +103,7 @@ body::-webkit-scrollbar {
 /* --------------------- Styling for everything on a white content card --------------------- */
 .content-section {
   padding: 24px 20px;
-  scroll-margin-top: 10px;
+  scroll-margin-top: 80px;
 }
 
 .content-card {
