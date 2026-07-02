@@ -9,7 +9,8 @@ All updatable content lives in `data/*.json`. After editing, commit and push, Gi
 
 ### Adding a LinkedIn post
 
-The Activity section on the home page embeds LinkedIn posts via their **share URN**. Note: the ID in the address bar when viewing a post (the `activity-` ID) is *different* from the share URN — the embed will not work if you use the wrong one. You must get the URN from LinkedIn's Share or Embed dialog.
+The Activity section on the home page embeds LinkedIn posts via their **share URN**. 
+Note: the ID in the address bar when viewing a post (the `activity-` ID) is *different* from the share URN, the embed will not work if you use the wrong one. You must get the URN from LinkedIn's Share or Embed dialog.
 
 1. Open the post on LinkedIn.
 2. Click the post's **Share** menu (the three-dot menu or the share button) and choose **Embed this post**. LinkedIn will open a dialog containing iframe HTML that looks like:
@@ -72,4 +73,17 @@ python3 scripts/search.py
 The script fetches the latest works for the configured ORCID ID, shows a diff against the current JSON, and prompts before overwriting.
 
 ## TODO
-- [ ] Improve responsiveness in mobile view (WIP)
+- [ ] Improve responsiveness in mobile view
+  - Margin around content cards should be reduced
+  - Make a mini version of the sidebar nav at top of display
+- [ ] Fix styling in teaching carousel
+  - make some of the Image/video sizes smaller relative to the text
+  - Make videos load thumbnail but not whole video until pressing play
+- [ ] Make styling more consistent across all sections (i.e. font size, spacing & colors)
+
+### Optional
+- [ ] Connect site to custom domain name
+  - i.e. irisbahar.com can be purchased for $12/year on [namecheap](https://www.namecheap.com)
+- [ ] Change Favicon to something else, like the Mines logo
+- [ ] Add trackpad/swipe controls to bottom carousel
+- [ ] Add arrow buttons to bottom carousel for easier control.
